@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+  width: 100vw;
+  height: 100vw;
+  /*background-image: url("https://cdn.pixabay.com/photo/2016/11/29/01/54/wood-1866667_960_720.jpg");*/
+  background-image: url("https://get.pxhere.com/photo/tree-nature-branch-plant-board-wood-grain-texture-floor-trunk-old-soil-weathered-background-hardwood-flooring-wood-flooring-plant-stem-woody-plant-laminate-flooring-wood-stain-1092309.jpg?__cf_chl_jschl_tk__=aca07a09b05123b9b66b4b3bbdb455f6a52726a1-1591726927-0-Ackh590FToAdns4Tf5oQgMc8qAORMitW3guHA4VAVYs5oy6L22qGlo0FdSHmg4wOXXVV_6IpE-8jr7cjYY7IFsFB5Ew2m9PDlQn42iqhTwt1VcZLLozgPGfg8Stq6jXP-uk1SrJSzsHC-pi2whWJT-Jl1v_XuYHzMWarA_pmpQahMqyfgbQ6UXa7dIR4IwLeFHvx5sxmza-ph9PIusLB8mEsuUIP9YTfllNCRq77sEA8tAOu9H9oE9ltN1xf57_-Yo2Se0bAx-J2WOsBj8BYtfQ0LRfmUt-czul4e2I5Q9x4q_P0hYvbakjBIvCTAv1bNL94wccui54M8qXwG-kWSNDPkA145oEcEEmR0WlUT7XqLvjQ5Q4bX-yxVZAoXC9231jdKoAEopHu5W5XQ-kgcFBC5nJI30-gStwaLrlQPEOFh-i9CGIVH1x_0iSuI1lR_17_AfN2kHrQJ8o1M3VLzBoYovA0aBgvxLXtzjNszgOFilz0sr010-HtZUOXNQ6njrrbAd2lORhB8EJTYToE21I");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  width: 80%;
+  margin: 10px auto;
+}
+
+header{
+
+  margin-bottom: 0px;
+  height: 300px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid white;
+  position: relative;
+}
+
+header .testo{
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  font-family: helvetica;
+}
+
+.testo h1{
+  border: 5px solid white;
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.navbar{
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+}
+
+.primalista{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+
+}
+
+.lista-nav {
+  /*display: block;*/
+  color: white;
+  /*text-align: center;*/
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  /*border: 1px solid white;*/
+
+
+
+}
+
+.lista-nav:hover{
+  background-color: white;
+  color: black;
+}
+
+aside{
+  /*background-color: pink;*/
+  margin-top: 10px;
+
+  height: 900px;
+  width: 20%;
+  float: left;
+}
+
+.organic{
+  padding: 2px 4px;
+  font-family: helvetica;
+}
+
+aside .contenitore{
+  height: 470px;
+  background-color: white;
+  width: 90%;
+  margin: 10px auto;
+  margin-left: 0;
+  border-radius: 10px;
+
+}
+
+.lista-aside{
+  color: green;
+  list-style-type: none;
+  padding: 8px 10px;
+  font-family: helvetica;
+
+}
+
+.lista-aside:hover{
+  color: red;
+}
+
+
+aside .contenitore-dx{
+  height: 250px;
+  background-color: white;
+  width: 90%;
+  margin: 10px auto;
+  margin-right: 0;
+  border-radius: 10px;
+
+}
+
+.text-widget{
+  padding: 30px 20px;
+  font-family: helvetica;
+  text-shadow: 4px 4px 3px rgba(150, 150, 150, 0.66);
+}
+
+.pwid{
+  padding: 30px 20px;
+  font-family: helvetica;
+}
+
+main{
+  /*background-color: blue;*/
+  margin-top: 10px;
+  height: 800px;
+  width: 60%;
+  float: left;
+
+}
+
+main .contenitore1{
+  height: 300px;
+  background-color: white;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 10px;
+
+}
+
+.three{
+  padding: 30px 20px;
+  font-family: helvetica;
+  text-shadow: 4px 4px 3px rgba(150, 150, 150, 0.66);
+}
+
+.maintext{
+  padding: 30px 20px;
+  font-family: helvetica;
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+  /*background-color: red;*/
+  float: left;
+  position: relative;
+}
+
+.boxfooter{
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  float: left;
+  border-radius: 10px;
+
+}
+
+.boxfooter h5{
+  text-align: center;
+  font-family: helvetica;
+  color: lightgrey;
+}
+
+/*.loghi{
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+
+}*/
+
+.logo1{
+  height:200px;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+.logo1 img{
+  text-align: center;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+
+
+}
+
+
+.logo2{
+  height:200px;
+  width: 60%;
+  float: left;
+  position: relative;
+}
+
+.logo2 img{
+  text-align: center;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+
+}
+
+.logo3{
+  height:200px;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+.logo3 img{
+  text-align: center;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
